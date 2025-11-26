@@ -8,7 +8,7 @@ import NoteList from "../NoteList/NoteList";
 import SearchBox from "../SearchBox/SearchBox";
 import css from "./App.module.css";
 import { createNote, deleteNote, fetchNotes } from "../../services/noteService";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useDebouncedCallback } from "use-debounce";
 import Pagination from "../Pagination/Pagination";
 import Modal from "../Modal/Modal";
